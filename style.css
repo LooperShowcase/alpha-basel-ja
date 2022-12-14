@@ -1,0 +1,45 @@
+body {
+  background-color: gray;
+  font-family: "Noto Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 75px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 20px 16px 30px 30px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+li a:hover {
+  background-color: #111;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+a {
+  color: rgb(35, 35, 35);
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
